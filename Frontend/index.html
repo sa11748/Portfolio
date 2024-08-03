@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubhangi's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Animated background -->
+    <div class="area">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    <!-- <div class="context">
+        <h1>Pure CSS Animated Background</h1>
+    </div> -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to Shubhangi's Portfolio</h1>
+            <p>Where Creativity Takes Flight</p>
+            <a href="#projects" class="cta-button">Explore My Work</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <h2><u>About Me</u></h2>
+        <div class="about-me-content">
+            <img src="assets/my.png" alt="Shubhangi Adhikary" class="profile-pic">
+            <div class="about-me-text">
+                <p>Hello!<br><b>I'm Shubhangi Adhikary</b><br>A passionate learner and aspiring software developer. I'm currently working on enhancing my skills in web development.</p>
+                <p>I enjoy creating interactive web applications and learning new technologies. My interests include coding, designing, and exploring the latest trends in tech.</p>
+                <p>Feel free to explore my portfolio and get in touch if you'd like to connect!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2><u>Skills</u></h2>
+        <div class="skills-container">
+        <div class="skills-cards">
+            <div class="scard">
+                <img src="assets/Java.jpg" alt="Java">
+                <h3>Java</h3>
+            </div>
+            <div class="scard">
+                <img src="assets/HTML.webp" alt="HTML">
+                <h3>HTML</h3>
+            </div>
+            <div class="scard">
+                <img src="assets/CSS.avif" alt="CSS">
+                <h3>CSS</h3>
+            </div>
+            <div class="scard">
+                <img src="assets/JavaScript.jpg" alt="JavaScript">
+                <h3>JavaScript</h3>
+            </div>
+            <div class="scard">
+                <img src="assets/ReactJs.png" alt="React">
+                <h3>React</h3>
+            </div>
+            <div class="scard">
+                <img src="assets/Express-JS.png" alt="ExpressJs">
+                <h3>ExpressJs</h3>
+            </div>
+            <div class="scard">
+                <img src="assets/NodeJs.jpg" alt="NodeJs">
+                <h3>NodeJs</h3>
+            </div>
+            <div class="scard">
+                <img src="assets/MongoDB.png" alt="MongoDB">
+                <h3>MongoDB</h3>
+            </div>
+        </div>
+        <div class="skills-chart">
+            <canvas id="skillsChart"></canvas>
+        </div>
+    </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2><u>Projects</u></h2>
+        <div class="project-cards">
+            <div class="card">
+                <video class="project-video" controls>
+                    <source src="assets/Weather Rec.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3>Weather Website</h3>
+                <p>A weather app provides real-time weather updates and forecasts using various features and technologies.Technologies like HTML, CSS, and JavaScript are commonly used.</p>
+            </div>
+            <div class="card">
+                <video class="project-video" controls>
+                    <source src="assets/MathBot Rec.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video> 
+                <h3>Math Bot</h3>
+                <p>Solves arithmetic problems like addition , subtraction , multiplication , division. Languages used are HTML , CSS and Javascript.</p>
+            </div>
+            <!-- Add more cards as needed -->
+        </div>
+    </section>
+
+      <!-- Resume Section -->
+      <section id="resume" class="section">
+        <h2><u>Resume</u></h2>
+        <div class="resume-content">
+            <a href= "assets/shubhuresume.pdf" class="resume-button" download>Download Resume</a>
+            <img src="assets/Screenshot 2024-08-03 115724.png" type="application/pdf" width="150px" height="170px" />
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2><u>Contact</u></h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+        <p>Email: shubhangishubhi490@gmail.com</p>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <!-- <a href="https://twitter.com/shubhangi">Twitter</a> -->
+            <a href="https://www.linkedin.com/in/shubhangi-adhikary-040164254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+        </div>
+        <div class="contact-info">
+            <p>Email: shubhangishubhi490@example.com</p>
+        </div>
+    </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
