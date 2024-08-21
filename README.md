@@ -1,2 +1,2 @@
 # Avatar_Portfolio
-This is Avatar theme Personal Portfolio
+This is my Personal Portfolio
